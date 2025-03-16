@@ -1,6 +1,6 @@
 # About / 概要
 
-Softether VPN automation script; such as installation.
+Softether VPN automation script; such as installation.   
 Softether VPNのセットアップ等を自動化するスクリプトです。
 
 
