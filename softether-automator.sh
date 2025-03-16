@@ -102,6 +102,11 @@ sudo systemctl start vpnserver
 }
 
 backup_softether() {
+if [ ! -d /usr/vpnserver ]; then
+  echo "/usr/vpnserver not found"
+  exit
+fi
+
 #sudo systemctl stop vpnserver
 sudo cp -r /usr/vpnserver /usr/vpnserver_$TODAY
 #sudo systemctl start vpnserver
