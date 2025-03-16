@@ -6,19 +6,19 @@ Softether VPNのセットアップ等を自動化するスクリプトです。
 
 # Running the app / 実行方法
 
-The script can be anywhere,
+The script can be anywhere,   
 but we expact it to be under /opt
 
-スクリプトは任意のフォルダに保存して実行できますが、
+スクリプトは任意のフォルダに保存して実行できますが、   
 /opt 直下に配置することを想定しています。
 
-Run the script
+Run the script   
 以下を実行
 ```
 ./softether-automator.sh <option>
 ```
 
-Options
+Options   
 オプション
 ```
 Usage:
@@ -40,9 +40,8 @@ Usage:
  -- etc. --
 ```
 
-実行例
+実行例     
 Example
-
 ```
 cd /opt
 
@@ -63,9 +62,8 @@ sudo ./softether-automator.sh -i
 
 # 動作確認 / Status check
 
-You can check on the status with the following commands
+You can check on the status with the following commands    
 以下のコマンドで実行状況を確認できます
-
 ```
 # VPN Server
 sudo systemctl status vpnserver
@@ -74,7 +72,6 @@ sudo systemctl status vpnserver
 sudo systemctl status vpnlog
 
 ```
-
 
 # テスト環境 / Test environment
 - Ubuntu 24.04
